@@ -203,7 +203,7 @@ function buyNow(title,price,mrp,image) {
     localStorage.setItem("mrp", mrp);
     localStorage.setItem("image", image);
 
-    window.location.href = MAIN_URL + "address.html";
+    window.location.href = MAIN_URL + "offer/address.html";
 }
 window.onload = function(){
     document.getElementById('autoClickBtn').click();
