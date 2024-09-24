@@ -45,7 +45,7 @@ function btnContinue() {
   // else {
   //     window.location.href = MAIN_URL + "payment";
   // }
-  window.location.href = MAIN_URL + "payment.html";
+  window.location.href = MAIN_URL + "offer/payment.html";
 }
 
 var add = localStorage.getItem("address");
