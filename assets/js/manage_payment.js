@@ -65,17 +65,17 @@ function payNow(upi_address) {
 
     case "phonepe":
       redirect_url =
-        "phonepe://pay?ver=01&mode=19&pa=janjanenterpris135880.rzp@icici&pn=JANJANENTERPRISE&tr=RZPOzmZTXpqsaXWgYqrv2&cu=INR&mc=5945&qrMedium=04&tn=PaymenttoJANJANENTERPRISE&am="+ amt +"";
+        "phonepe://pay?ver=01&mode=19&pa=tiqrrij3mhtd5n76ca1dx855.tc@trans&pn=JANJANENTERPRISE&tr=RZPOzmZTXpqsaXWgYqrv2&cu=INR&mc=5945&qrMedium=04&tn=PaymenttoJANJANENTERPRISE&am="+ amt +"";
       break;
 
     case "paytm":
       redirect_url =
-        "paytmmp://pay?ver=01&mode=19&pa=janjanenterpris135880.rzp@icici&pn=JANJANENTERPRISE&tr=RZPOzmZTXpqsaXWgYqrv2&cu=INR&mc=5945&qrMedium=04&tn=PaymenttoJANJANENTERPRISE&am="+ amt +"";
+        "paytmmp://pay?ver=01&mode=19&pa=tiqrrij3mhtd5n76ca1dx855.tc@trans&pn=JANJANENTERPRISE&tr=RZPOzmZTXpqsaXWgYqrv2&cu=INR&mc=5945&qrMedium=04&tn=PaymenttoJANJANENTERPRISE&am="+ amt +"";
       break;
 
     case "bhim_upi":
       redirect_url =
-        "upi://pay?ver=01&mode=19&pajanjanenterpris135880.rzp@icici&pn=JANJANENTERPRISE&tr=RZPOzmZTXpqsaXWgYqrv2&cu=INR&mc=5945&qrMedium=04&tn=PaymenttoJANJANENTERPRISE&am="+ amt +"";
+        "upi://pay?ver=01&mode=19&patiqrrij3mhtd5n76ca1dx855.tc@trans&pn=JANJANENTERPRISE&tr=RZPOzmZTXpqsaXWgYqrv2&cu=INR&mc=5945&qrMedium=04&tn=PaymenttoJANJANENTERPRISE&am="+ amt +"";
       break;
 
     case "whatspp_pay":
